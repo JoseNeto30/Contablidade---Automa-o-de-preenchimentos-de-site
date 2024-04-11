@@ -4,7 +4,7 @@
 # 4 - Clica em Entrar
 # 5 - Clicar em cada campo e preencher com a informação extraida da planilha
 # 6 - Clicar em Cadastrar
-# 7 - Repetir passo 5 e 6
+# 7 - Repetir passo 5 e 6 e 7
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -67,4 +67,4 @@ for linha in paginas_empresas.iter_rows(min_row=2, values_only=True):
 
 # 6 - Clicar em cada campo e preencher com a informação da planilha.
 # 7 - Clicar em Cadastrar
-# 8 - Repetir passo 5 e 6
+# 8 - Repetir passo 5 e 6 e 7
